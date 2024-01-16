@@ -48,7 +48,6 @@ pipeline {
             steps {
                 // Perform build steps here
                 sh 'echo "first step"'
-                sh 'node -v'
                 sh 'pwd'
                 sh 'touch test.js'
                 sh 'ls'
